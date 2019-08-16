@@ -1,0 +1,20 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+.o-main-card {
+    justify-content: center;
+    background: #0073F6;
+}
+
+.o-container-aboutme {
+    background: red;
+}
+
+.o-container-skills {
+    background: rebeccapurple;
+}
+
+.o-container-education {
+    background: green;
+}
