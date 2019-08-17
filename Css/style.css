@@ -5,6 +5,7 @@ body {
 }
 
 .o-main-card {
+    margin-top: 7rem;
     display: flex;
     justify-content: center;
 }
@@ -80,7 +81,16 @@ body {
 }
 
 .o-container-aboutme {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
     background: red;
+}
+
+.o-aboutme-content {
+    width: 50rem;
+    border: 2px solid #5D5D5D;
+    background: #0073F6;
 }
 
 .o-container-skills {
