@@ -65,7 +65,7 @@ body {
 .o-information {
     font-size: 13px;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .o-contact-container {
@@ -75,7 +75,7 @@ body {
 }
 
 .o-img-contact {
-    margin: 0.5rem 0.7rem;
+    margin: 0.9rem 0.8rem;
     width: 1.8rem;
 }
 
