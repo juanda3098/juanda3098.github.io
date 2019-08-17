@@ -1,27 +1,82 @@
 body {
     font-family: 'Segoe UI';
+    color: #5D5D5D;
+    margin: 0rem;
 }
 
 .o-main-card {
     display: flex;
     justify-content: center;
-    background: #0073F6;
 }
 
 .o-card{
-    background: yellow;
+    display: flex;
     width: 40rem;
+    height: 20.6rem;
+    box-shadow: 1px 4px 10px #5D5D5D;
 }
 
 .o-img-container {
-    width: 15rem;
+    width: 18rem;
+    justify-content: flex-start;
     overflow: hidden;
-    background: purple;
 }
 
 .o-img-card {
     transform: translate(-24%);  
-    width: 26rem;
+    width: 31rem;
+}
+
+.o-card-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.o-card-content {
+    margin: 1.3rem 0rem 0rem 2rem;
+}
+
+.o-welcome {
+    padding: 0.5rem;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    border-radius: 0.3rem;
+    background: #0073F6
+}
+
+.o-name {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 25px;
+    color: #0073F6;
+}
+
+.o-profetion {
+    font-size: 13px;
+}
+
+.o-line {
+    margin: 1rem 0rem;
+    width: 18rem;
+}
+
+.o-information {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.o-contact-container {
+    width: 22rem;
+    display: flex;
+    background: #0073F6;
+}
+
+.o-img-contact {
+    margin: 0.5rem 0.7rem;
+    width: 1.8rem;
 }
 
 .o-container-aboutme {
