@@ -3,8 +3,25 @@ body {
 }
 
 .o-main-card {
+    display: flex;
     justify-content: center;
     background: #0073F6;
+}
+
+.o-card{
+    background: yellow;
+    width: 40rem;
+}
+
+.o-img-container {
+    width: 15rem;
+    overflow: hidden;
+    background: purple;
+}
+
+.o-img-card {
+    transform: translate(-24%);  
+    width: 26rem;
 }
 
 .o-container-aboutme {
