@@ -80,7 +80,7 @@ body {
     width: 1.8rem;
 }
 
-.o-container-aboutme {
+.o-section-aboutme {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
@@ -90,13 +90,36 @@ body {
 .o-aboutme-content {
     width: 50rem;
     border: 2px solid #5D5D5D;
-    background: #0073F6;
+    padding: 1rem;
+    display: flex;
 }
 
-.o-container-skills {
+.o-img-aboutme-content {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+}
+
+.o-aboutme-container {
+    margin: 0rem 1rem;
+}
+
+.o-aboutme-title {
+    margin-top: 0.2rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0073F6;
+}
+
+.o-aboutme-text {
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+.o-section-skills {
     background: rebeccapurple;
 }
 
-.o-container-education {
+.o-section-education {
     background: green;
 }
