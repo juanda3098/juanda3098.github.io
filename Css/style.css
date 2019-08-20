@@ -124,6 +124,7 @@ body {
 }
 
 .o-section-skills {
+    margin: 2rem 0rem;
     display: flex;
     justify-content: center;
     background: rebeccapurple;
@@ -137,17 +138,35 @@ body {
 }
 
 .o-skill-container {
-    width: 23rem;
+    width: 24rem;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     border: 2px solid rgb(155, 155, 155);
 }
 
 .o-title-skill {
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 25px;
     background: #0073F6;
     border-radius: 0.3rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem;
+    transform: translateY(-1.7rem); 
+}
+
+.o-title-hability-skill {
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.o-bar-progress {
+    width: 18rem;
+    margin-bottom: 0.8rem;
+    background: #0073F6;
+    border-radius: 1rem;
 }
 
 .o-section-education {
