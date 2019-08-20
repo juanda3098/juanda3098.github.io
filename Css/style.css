@@ -88,7 +88,7 @@ body {
 
 .o-aboutme-content {
     width: 50rem;
-    border: 2px solid #5D5D5D;
+    border: 2px solid rgb(155, 155, 155);
     padding: 1rem;
 }
 
@@ -123,9 +123,23 @@ body {
 }
 
 .o-section-skills {
+    display: flex;
+    justify-content: center;
     background: rebeccapurple;
 }
 
-.o-section-education {
+.o-skill-content {
+    width: 52rem;
+    display: flex;
+    justify-content: space-between;
     background: green;
+}
+
+.o-skill-container {
+    width: 22rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.o-section-education {
+    background: red;
 }
