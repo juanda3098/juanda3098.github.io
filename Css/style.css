@@ -133,12 +133,21 @@ body {
     width: 52rem;
     display: flex;
     justify-content: space-between;
-    background: green;
+    background: pink;
 }
 
 .o-skill-container {
-    width: 22rem;
+    width: 23rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     border: 2px solid rgb(155, 155, 155);
+}
+
+.o-title-skill {
+    font-size: 20px;
+    background: #0073F6;
+    border-radius: 0.3rem;
 }
 
 .o-section-education {
