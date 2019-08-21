@@ -40,18 +40,15 @@ body {
 .o-welcome {
     padding: 0.5rem;
     width: fit-content;
-    font-weight: bold;
     font-size: 12px;
     color: #ffffff;
     border-radius: 0.3rem;
-    background: #0073F6
+    background: #0073F6;
 }
 
 .o-name {
     margin-top: 1rem;
-    font-weight: bold;
     font-size: 25px;
-    color: #0073F6;
 }
 
 .o-profetion {
@@ -65,7 +62,6 @@ body {
 
 .o-information {
     font-size: 13px;
-    font-weight: bold;
     margin-bottom: 0.8rem;
 }
 
@@ -124,7 +120,6 @@ body {
 }
 
 .o-section-skills {
-    margin: 2rem 0rem;
     display: flex;
     justify-content: center;
 }
@@ -143,21 +138,19 @@ body {
     border: 2px solid rgb(155, 155, 155);
 }
 
-.o-title-skill {
+.o-title-card {
     color: #ffffff;
     font-size: 25px;
     background: #0073F6;
     border-radius: 0.3rem;
-    width: 12rem;
-    display: flex;
-    justify-content: center;
+    width: 13rem;
+    text-align: center;
     padding: 0.5rem 0rem;
     transform: translateY(-1.7rem); 
 }
 
 .o-title-hability-skill {
     margin-bottom: 0.3rem;
-    font-weight: bold;
 }
 
 .o-bar-progress {
@@ -168,5 +161,35 @@ body {
 }
 
 .o-section-education {
-    background: red;
+    margin: 4rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+.o-education-container {
+    width: 52rem;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.o-education-content {
+    display: flex;
+}
+
+.o-title-education {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding: 1.5rem;
+    width: 9rem;
+    margin: 0rem 0rem 3rem 3rem;
+    background: #0073F6;
+    border-radius: 0.3rem;
+}
+
+.o-text-education {
+    font-size: 13px;
+    padding: 1rem;
+    border: 2px solid rgb(155, 155, 155);
+    margin: 3rem 3rem 3rem 0rem;
+    border-radius: 0.3rem;
 }
