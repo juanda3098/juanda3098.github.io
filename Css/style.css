@@ -5,16 +5,19 @@ body {
 }
 
 .o-main-card {
-    margin-top: 7rem;
     display: flex;
     justify-content: center;
+    background: #0073F6;
+    box-shadow: 1px 1px 10px #5D5D5D;
 }
 
 .o-card{
     display: flex;
+    background: #ffffff;
     width: 40rem;
     height: 20.6rem;
     box-shadow: 1px 4px 10px #5D5D5D;
+    transform: translateY(9rem);
 }
 
 .o-img-container {
@@ -77,7 +80,7 @@ body {
 }
 
 .o-section-aboutme {
-    margin: 6rem 0rem;
+    margin: 15rem 0rem 5rem 0rem;
     display: flex;
     justify-content: center;
 }
@@ -161,7 +164,7 @@ body {
 }
 
 .o-section-education {
-    margin: 4rem 0rem;
+    margin: 5rem 0rem;
     display: flex;
     justify-content: center;
 }
@@ -179,8 +182,9 @@ body {
     color: #ffffff;
     font-size: 15px;
     text-align: center;
-    padding: 1.5rem;
-    width: 9rem;
+    padding: 0.5rem;
+    width: 12rem;
+    height: 5rem;
     margin: 0rem 0rem 3rem 3rem;
     background: #0073F6;
     border-radius: 0.3rem;
@@ -190,6 +194,6 @@ body {
     font-size: 13px;
     padding: 1rem;
     border: 2px solid rgb(155, 155, 155);
-    margin: 3rem 3rem 3rem 0rem;
+    margin: 2rem 3rem 3rem 0rem;
     border-radius: 0.3rem;
 }
