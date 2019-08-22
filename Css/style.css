@@ -218,11 +218,6 @@ body {
     transform: translateX(-0.5rem);
 }
 
-.prueba-img {
-    width: 100px;
-    
-}
-
 /* On screens that are 992px or less, set the background color to blue */
 
 @media (max-width: 992px) {
@@ -235,6 +230,25 @@ body {
 
 @media (max-width: 600px) {
     body {
-        background-color: olive;
+        background-color: red
+    }
+
+    .o-main-card {
+        box-shadow: 0px 0px 0px;
+    }
+
+    .o-card {
+        flex-direction: column;
+        width: 22rem;
+        transform: translateY(0rem);
+        background: #5D5D5D
+    }
+
+    .o-img-container {
+
+    }
+
+    .o-img-card {
+
     }
 }
