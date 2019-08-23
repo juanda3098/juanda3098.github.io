@@ -233,9 +233,6 @@ h6 {
 /* On screens that are 600px or less, set the background color to olive */
 
 @media (max-width: 600px) {
-    body {
-        background-color: red
-    }
 
     .o-main-card {
         box-shadow: none;
