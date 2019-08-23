@@ -5,6 +5,11 @@ body {
     background-image: url("../Img/fondo.png");
 }
 
+h6 {
+    margin: 0rem;
+    font-weight: normal;
+}
+
 .o-main-card {
     display: flex;
     justify-content: center;
@@ -23,7 +28,6 @@ body {
 
 .o-img-container {
     width: 20rem;
-    justify-content: flex-start;
     overflow: hidden;
 }
 
@@ -200,7 +204,7 @@ body {
     color: #ffffff;
     font-size: 15px;
     padding: 0.5rem;
-    width: 12rem;
+    width: 13rem;
     height: 5rem;
     margin-left: 3.5rem;
     background: #0073F6;
@@ -234,21 +238,106 @@ body {
     }
 
     .o-main-card {
-        box-shadow: 0px 0px 0px;
+        box-shadow: none;
     }
 
     .o-card {
+        margin: 2rem 0rem;
         flex-direction: column;
-        width: 22rem;
+        align-items: center;
+        width: 19rem;
+        height: 29rem; /* Acomodar luego */
+        border-radius: 0.3rem;
         transform: translateY(0rem);
-        background: #5D5D5D
+        box-shadow: 1px 2px 10px rgb(100, 100, 100);
     }
 
     .o-img-container {
-
+        margin-top: 1rem;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50rem;
     }
 
     .o-img-card {
-
+        width: 12rem;
+        transform: translateX(-18%);
     }
+
+    .o-card-content-container {
+        width: 19rem;
+    }
+
+    .o-card-content {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .o-name {
+        font-size: 24px;
+    }
+
+    .o-line {
+        margin: 1rem 0rem;
+        width: 15rem;
+    }
+
+    .o-contact-container {
+        margin-top: 0rem;
+        width: 19rem;
+        border-radius: 0rem 0rem 0.3rem 0.3rem;
+    }
+
+    .o-section-aboutme {
+        margin: 3rem 0rem 5rem 0rem;
+    }
+
+    .o-aboutme-content {
+        width: 20.5rem;
+        border: none;
+    }
+
+    .o-aboutme-container {
+        margin-right: 1rem;
+    }
+
+    .o-aboutme-title {
+        margin-bottom: 1rem;
+    }
+
+    .o-aboutme-text{
+        text-align: justify;
+    }
+
+    .o-skill-content {
+        width: 22.5rem;
+        flex-direction: column;
+    }
+
+    .o-skill-container {
+        width: auto;
+        border: none;
+        margin-bottom: 5rem;
+    }
+
+    .o-section-education {
+        margin: 0rem 0rem 1rem 0rem;
+    }
+
+    .o-education-container {
+        width: 22.5rem;
+        border: none;
+    }
+
+    .o-title-education {
+        margin-left: 1rem;
+        width: 30rem;
+    }
+
+    .o-text-education {
+        margin: 0rem 0.5rem 0rem 0rem;
+    }
+
 }
