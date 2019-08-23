@@ -296,6 +296,11 @@ h6 {
         border: none;
     }
 
+    .o-img-aboutme-content {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
     .o-aboutme-container {
         margin-right: 1rem;
     }
