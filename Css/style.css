@@ -100,6 +100,7 @@ h6 {
 
 .o-aboutme-part {
     display: flex;
+    justify-content: center;
 }
 
 .o-img-aboutme-content {
@@ -292,13 +293,14 @@ h6 {
     }
 
     .o-aboutme-content {
+        padding: 0rem;
         width: 20.5rem;
         border: none;
     }
 
     .o-img-aboutme-content {
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem; 
+        height: 2.5rem;
     }
 
     .o-aboutme-container {
