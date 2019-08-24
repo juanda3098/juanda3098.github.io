@@ -31,7 +31,6 @@ a {
     height: 21.9rem;
     box-shadow: 1px 4px 10px rgb(160, 160, 160);
     transform: translateY(9rem);
-    overflow: hidden;
 }
 
 .o-img-container {
@@ -259,7 +258,6 @@ a {
     
     .o-main-card {
         box-shadow: none;
-
     }
 
     .o-card {
@@ -267,6 +265,7 @@ a {
         height: 18rem;
         margin: 3rem 2rem;
         transform: translateY(0rem);
+        box-shadow: none;
     }
 
     .o-img-container {
