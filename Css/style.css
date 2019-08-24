@@ -85,6 +85,8 @@ h6 {
     width: 1.8rem;
 }
 
+/* ----------- */
+
 .o-section-aboutme {
     margin: 15rem 0rem 5rem 0rem;
     display: flex;
@@ -129,7 +131,7 @@ h6 {
 .o-line2 {
     margin: 2rem 0.5rem;
 }
-
+/* ---------- */
 .o-section-skills {
     display: flex;
     justify-content: center;
@@ -190,7 +192,7 @@ h6 {
     background: #0073F6;
     border-radius: 1rem;
 }
-
+/* ---------- */
 .o-section-education {
     margin: 5rem 0rem;
     display: flex;
@@ -240,14 +242,85 @@ h6 {
     
     .o-main-card {
         box-shadow: none;
-        width: auto;
+
     }
 
     .o-card {
-        width: 40rem;
-        margin: 3rem 0rem;
+        width: 34rem;
+        height: 18rem;
+        margin: 3rem 2rem;
         transform: translateY(0rem);
-        box-shadow: none;
+    }
+
+    .o-img-container {
+        width: 15rem;
+    }
+
+    .o-img-card{
+        width: 28.1rem;
+        transform: translateX(-27%)
+    }
+
+    .o-contact-container {
+        width: 20rem;
+    }
+
+    .o-card-content {
+        margin: 1rem 1rem 0rem 1rem;
+    }
+
+    .o-name {
+        margin-top: 0.5rem;
+    }
+
+    .o-line {
+        margin: 1rem 0rem;;
+    }
+
+    .o-information {
+        margin-bottom: 0.5rem;
+    }
+
+    .o-contact-container {
+        width: 20.2rem;
+    }
+
+    .o-section-aboutme {
+        margin: 5rem 0rem 5rem 0rem;
+    }
+
+    .o-aboutme-content {
+        width: 33rem;
+    }
+
+    .o-skill-content {
+        width: 35rem;
+        flex-direction: column;
+    }
+
+    .o-skill-container{
+        width: 35rem;
+        margin-bottom: 5rem;
+    }
+
+    .o-img-title {
+        transform: translate(-2rem, -1.4rem);
+    }
+
+    .o-title-card {
+        transform: translate(-1.3rem, -1.75rem);
+    }
+
+    .o-bar {
+        width: 30rem;
+    }
+
+    .o-section-education {
+        margin: 0rem 0rem 1rem 0rem;
+    }
+
+    .o-education-container {
+        width: 35rem;
     }
 
 }
@@ -295,12 +368,17 @@ h6 {
     }
 
     .o-name {
+        margin-top: 1rem;
         font-size: 24px;
     }
 
     .o-line {
         margin: 1rem 0rem;
         width: 15rem;
+    }
+
+    .o-information {
+        margin-bottom: 0.8rem;
     }
 
     .o-contact-container {
@@ -348,11 +426,15 @@ h6 {
     }
 
     .o-img-title {
-        transform: translate(-2.2rem, -1.4rem);
+        transform: translate(-2rem, -1.4rem);
     }
 
     .o-title-card {
-        transform: translate(-1.75);
+        transform: translate(-1rem, -1.75rem);
+    }
+
+    .o-bar {
+        width: 18rem;
     }
 
     .o-section-education {
