@@ -10,6 +10,13 @@ h6 {
     font-weight: normal;
 }
 
+a {
+    height: 3.6rem;
+    text-decoration: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+
 .o-main-card {
     display: flex;
     justify-content: center;
@@ -24,6 +31,7 @@ h6 {
     height: 21.9rem;
     box-shadow: 1px 4px 10px rgb(160, 160, 160);
     transform: translateY(9rem);
+    overflow: hidden;
 }
 
 .o-img-container {
