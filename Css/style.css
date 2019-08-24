@@ -131,7 +131,9 @@ h6 {
 .o-line2 {
     margin: 2rem 0.5rem;
 }
+
 /* ---------- */
+
 .o-section-skills {
     display: flex;
     justify-content: center;
@@ -192,7 +194,9 @@ h6 {
     background: #0073F6;
     border-radius: 1rem;
 }
+
 /* ---------- */
+
 .o-section-education {
     margin: 5rem 0rem;
     display: flex;
@@ -203,6 +207,11 @@ h6 {
     width: 52rem;
     border: 2px solid rgb(200, 200, 200);
     background: #ffffff;
+}
+
+.o-head-card-education {
+    display: flex;
+    margin-left: 4.2rem
 }
 
 .o-education-content {
@@ -444,6 +453,10 @@ h6 {
     .o-education-container {
         width: 22.5rem;
         border: none;
+    }
+
+    .o-head-card-education {
+        margin-left: 3.6rem
     }
 
     .o-title-education {
