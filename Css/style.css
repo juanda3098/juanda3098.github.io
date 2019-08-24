@@ -332,6 +332,10 @@ h6 {
         width: 35rem;
     }
 
+    .o-head-card-education {
+        margin-left: 10rem
+    }
+
 }
 
 /* On screens that are 600px or less, set the background color to olive */
