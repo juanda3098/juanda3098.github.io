@@ -252,6 +252,29 @@ a {
     transform: translateX(-0.5rem);
 }
 
+.o-section-portfolio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.o-portfolio-container {
+    width: 52rem;
+    height: 32.3rem;
+    border: 2px solid rgb(200, 200, 200);
+    background: #ffffff;
+}
+
+.o-head-card-portfolio {
+    display: flex;
+    margin-left: 4.2rem
+}
+
+.o-video {
+    width: 100%;
+    height: 29.25rem;
+}
+
 /* On screens that are 992px or less, set the background color to blue */
 
 @media (max-width: 992px) {
@@ -341,6 +364,24 @@ a {
 
     .o-head-card-education {
         margin-left: 10rem
+    }
+
+    .o-section-portfolio {
+        margin: 5rem;
+    }
+
+    .o-portfolio-container {
+        width: 35rem;
+        height: 22.75rem;
+    }
+    
+    .o-head-card-portfolio {
+        display: flex;
+        margin-left: 4.2rem
+    }
+
+    .o-video {
+        height: 19.7rem;
     }
 
 }
@@ -477,6 +518,21 @@ a {
 
     .o-text-education {
         margin: 0rem 0.5rem 0rem 0rem;
+    }
+
+    .o-portfolio-container {
+        width: 20rem;
+        height: 14.4rem;
+        border: none;
+    }
+    
+    .o-head-card-portfolio {
+        display: flex;
+        margin-left: 4.2rem
+    }
+
+    .o-video {
+        height: 11.25rem;
     }
 
 }
